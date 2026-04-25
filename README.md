@@ -22,6 +22,8 @@ $$
 
 
 where 
+
+
 $\lambda = (c \, dt / dx)^2$
 
 ## Discussion
