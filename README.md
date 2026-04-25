@@ -2,6 +2,8 @@
 
 This project implements a numerical simulation of wave propagation on a 1D string using a finite difference method.
 
+---
+
 ## Physical Model
 
 The system is described by the 1D wave equation:
@@ -12,20 +14,11 @@ $$
 
 where:
 
-$$
-\u(x,t) \; \text{is the displacement of the string}
-$$
-
-- $$
-u(x,t) \; \text{is the displacement of the string}
-$$
-
-- $$
-c \; \text{is the wave propagation speed}
-$$
-
+- $u(x,t)$ is the displacement of the string  
+- $c$ is the wave propagation speed  
 
 ### Initial condition
+
 A localized initial perturbation:
 
 $$
@@ -104,5 +97,4 @@ Install dependencies with:
 
 ```bash
 pip install numpy matplotlib
-```
 ```
