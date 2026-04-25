@@ -6,7 +6,9 @@ This project implements a numerical simulation of wave propagation on a 1D strin
 
 The system is described by the 1D wave equation:
 
-∂²u/∂t² = c² ∂²u/∂x²
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+$$
 
 with a localized initial perturbation and fixed boundary conditions.
 
@@ -14,9 +16,10 @@ with a localized initial perturbation and fixed boundary conditions.
 
 The equation is solved using a second-order finite difference scheme:
 
-u_i^{n+1} = 2u_i^n - u_i^{n-1} + λ (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
-
-where λ = (c dt / dx)^2.
+$$
+u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
+$$
+where $\lambda = (c \, dt / dx)^2$
 
 ## Discussion
 
