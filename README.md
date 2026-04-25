@@ -100,8 +100,9 @@ In this simulation:
 $$
 \frac{c \Delta t}{\Delta x} = 0.2
 $$
-
 which satisfies the CFL condition, ensuring numerical stability.
+
+
 ---
 
 ## Requirements
