@@ -1,4 +1,4 @@
-# Numerical-Simulation-of-Wave-Propagation-in-a-1D-String
+# Numerical Simulation of Wave Propagation in a 1D String
 
 This project implements a numerical simulation of wave propagation on a 1D string using a finite difference method.
 
@@ -7,23 +7,25 @@ This project implements a numerical simulation of wave propagation on a 1D strin
 The system is described by the 1D wave equation:
 
 $$
-\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+\frac{\partial^2 u(x,t)}{\partial t^2} = c^2 \frac{\partial^2 u(x,t)}{\partial x^2}
 $$
 
 where:
+- \( u(x,t) \) is the displacement of the string  
+- \( c \) is the wave propagation speed  
 
-u(x,t) is the displacement of the string
-c is the wave propagation speed
+### Initial condition
+A localized initial perturbation:
 
-The initial condition consists of:
+$$
+u(x,0) = f(x)
+$$
 
-a localized initial perturbation:
+### Boundary conditions (Dirichlet)
 
-u(x,0)=f(x)
-
-and fixed boundary conditions (Dirichlet):
-
-u(0,t)=u(L,t)=0
+$$
+u(0,t) = 0, \quad u(L,t) = 0
+$$
 
 ---
 
@@ -32,9 +34,11 @@ u(0,t)=u(L,t)=0
 The equation is solved using a second-order finite difference scheme:
 
 $$
-u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
+u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda \left( u_{i+1}^n - 2u_i^n + u_{i-1}^n \right)
 $$
-where 
+
+where:
+
 $$
 \lambda = \left(\frac{c \, \Delta t}{\Delta x}\right)^2
 $$
@@ -63,13 +67,12 @@ $$
 
 ## Output
 
-The simulation produces a set of plots showing:
+The simulation produces plots showing:
 
 - Wave propagation over time
 - Evolution of the initial pulse
 - Local zoom of the active region
 
----
 ---
 
 ## Discussion
@@ -90,3 +93,5 @@ Install dependencies with:
 
 ```bash
 pip install numpy matplotlib
+```
+```
