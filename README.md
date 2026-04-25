@@ -25,6 +25,15 @@ where $$\lambda = (cdt/dx)^2$$
 
 ---
 
+## ⚙️ Parameters
+
+- Wave speed: `c = 1`
+- Time step: `dt = 0.2`
+- Spatial step: `dx = 1`
+- Initial condition: localized pulse
+
+---
+
 ## Features
 
 - Finite difference discretization of the wave equation
@@ -33,15 +42,6 @@ where $$\lambda = (cdt/dx)^2$$
   - Full system evolution
   - Zoomed region of the wave packet
 - Comparison between current and previous time step
-
----
-
-## ⚙️ Parameters
-
-- Wave speed: `c = 1`
-- Time step: `dt = 0.2`
-- Spatial step: `dx = 1`
-- Initial condition: localized pulse
 
 ---
 
@@ -54,14 +54,23 @@ The simulation produces a set of plots showing:
 - Local zoom of the active region
 
 ---
-
-## Requirements
-Pyhton version ...
- Pyhton librarires numpy matplotlib
-
+---
 
 ## Discussion
 
-The simulation reproduces wave propagation with expected behavior.
+The simulation reproduces the expected wave propagation behavior.
 
-The method is simple and efficient, but introduces numerical dispersion and requires stability conditions (CFL).
+The method is simple and efficient, but introduces numerical dispersion and requires stability conditions (CFL condition) to ensure accuracy.
+
+---
+
+## Requirements
+
+- Python ≥ 3.8
+- NumPy
+- Matplotlib
+
+Install dependencies with:
+
+```bash
+pip install numpy matplotlib
