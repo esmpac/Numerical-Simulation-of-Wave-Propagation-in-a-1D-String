@@ -12,6 +12,10 @@ $$
 
 where:
 
+$$
+\u(x,t) \; \text{is the displacement of the string}
+$$
+
 - $$
 u(x,t) \; \text{is the displacement of the string}
 $$
