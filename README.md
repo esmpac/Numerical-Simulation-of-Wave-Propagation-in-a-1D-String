@@ -24,7 +24,7 @@ $$
 where 
 
 $$
-\lambda = (c \, dt / dx)^2
+\lambda = (c dt / dx)^2
 $$
 
 ## Discussion
