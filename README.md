@@ -21,6 +21,60 @@ u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
 $$
 where $$\lambda = (cdt/dx)^2$$
 
+
+
+## 📌 Features
+
+- Finite difference discretization of the wave equation
+- Time evolution of an initial localized disturbance
+- Visualization of:
+  - Full system evolution
+  - Zoomed region of the wave packet
+- Comparison between current and previous time step
+
+---
+
+## 🧮 Numerical Method
+
+The update rule used is:
+
+\[
+u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
+\]
+
+where:
+
+\[
+\lambda = \left(\frac{c \Delta t}{\Delta x}\right)^2
+\]
+
+---
+
+## ⚙️ Parameters
+
+- Wave speed: `c = 1`
+- Time step: `dt = 0.2`
+- Spatial step: `dx = 1`
+- Initial condition: localized pulse
+
+---
+
+## 📊 Output
+
+The simulation produces a set of plots showing:
+
+- Wave propagation over time
+- Evolution of the initial pulse
+- Local zoom of the active region
+
+---
+
+## 🚀 How to run
+
+```bash
+pip install numpy matplotlib
+python src/wave_simulation.py
+
 ## Discussion
 
 The simulation reproduces wave propagation with expected behavior.
