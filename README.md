@@ -44,7 +44,7 @@ $$
 where:
 
 $$
-\lambda = \left(\frac{c \, \Delta t}{\Delta x}\right)^2
+\lambda = \left(\frac{c\,\Delta t}{\Delta x}\right)^2
 $$
 
 ---
