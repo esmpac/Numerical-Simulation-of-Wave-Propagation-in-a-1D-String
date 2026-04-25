@@ -21,9 +21,7 @@ u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
 $$
 
 
-where 
-
-\lambda = \left(\frac{c\,\Delta t}{\Delta x}\right)^2
+$\lambda = (c\,dt/dx)^2$
 
 ## Discussion
 
