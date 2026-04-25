@@ -23,9 +23,9 @@ $$
 
 where 
 
-$$
-\lambda = (c dt / dx)^2
-$$
+\[
+\lambda = \left(\frac{c\,\Delta t}{\Delta x}\right)^2
+\]
 
 ## Discussion
 
