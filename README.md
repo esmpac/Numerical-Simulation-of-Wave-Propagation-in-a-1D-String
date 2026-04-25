@@ -17,3 +17,9 @@ The equation is solved using a second-order finite difference scheme:
 u_i^{n+1} = 2u_i^n - u_i^{n-1} + λ (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
 
 where λ = (c dt / dx)^2.
+
+## Discussion
+
+The simulation reproduces wave propagation with expected behavior.
+
+The method is simple and efficient, but introduces numerical dispersion and requires stability conditions (CFL).
