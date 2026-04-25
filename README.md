@@ -10,7 +10,20 @@ $$
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
 $$
 
-with a localized initial perturbation and fixed boundary conditions.
+where:
+
+u(x,t) is the displacement of the string
+c is the wave propagation speed
+
+The initial condition consists of:
+
+a localized initial perturbation:
+
+u(x,0)=f(x)
+
+and fixed boundary conditions (Dirichlet):
+
+u(0,t)=u(L,t)=0
 
 ---
 
