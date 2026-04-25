@@ -81,10 +81,27 @@ The simulation produces plots showing:
 
 ## Discussion
 
+## Discussion
+
 The simulation reproduces the expected wave propagation behavior.
 
 The method is simple and efficient, but introduces numerical dispersion and requires stability conditions (CFL condition) to ensure accuracy.
 
+### CFL Condition
+
+The stability condition for the finite difference scheme is:
+
+$$
+\frac{c \Delta t}{\Delta x} \le 1
+$$
+
+In this simulation:
+
+$$
+\frac{c \Delta t}{\Delta x} = 0.2
+$$
+
+which satisfies the CFL condition, ensuring numerical stability.
 ---
 
 ## Requirements
