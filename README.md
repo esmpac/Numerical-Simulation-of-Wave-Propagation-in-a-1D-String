@@ -12,6 +12,8 @@ $$
 
 with a localized initial perturbation and fixed boundary conditions.
 
+---
+
 ## Numerical Method
 
 The equation is solved using a second-order finite difference scheme:
@@ -21,9 +23,9 @@ u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
 $$
 where $$\lambda = (cdt/dx)^2$$
 
+---
 
-
-## 📌 Features
+## Features
 
 - Finite difference discretization of the wave equation
 - Time evolution of an initial localized disturbance
@@ -31,22 +33,6 @@ where $$\lambda = (cdt/dx)^2$$
   - Full system evolution
   - Zoomed region of the wave packet
 - Comparison between current and previous time step
-
----
-
-## 🧮 Numerical Method
-
-The update rule used is:
-
-\[
-u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
-\]
-
-where:
-
-\[
-\lambda = \left(\frac{c \Delta t}{\Delta x}\right)^2
-\]
 
 ---
 
@@ -59,7 +45,7 @@ where:
 
 ---
 
-## 📊 Output
+## Output
 
 The simulation produces a set of plots showing:
 
@@ -69,11 +55,10 @@ The simulation produces a set of plots showing:
 
 ---
 
-## 🚀 How to run
+## Requirements
+Pyhton version ...
+ Pyhton librarires numpy matplotlib
 
-```bash
-pip install numpy matplotlib
-python src/wave_simulation.py
 
 ## Discussion
 
