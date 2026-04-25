@@ -11,8 +11,15 @@ $$
 $$
 
 where:
-- \u(x,t) is the displacement of the string  
--  \c  is the wave propagation speed  
+
+- $$
+u(x,t) \; \text{is the displacement of the string}
+$$
+
+- $$
+c \; \text{is the wave propagation speed}
+$$
+
 
 ### Initial condition
 A localized initial perturbation:
