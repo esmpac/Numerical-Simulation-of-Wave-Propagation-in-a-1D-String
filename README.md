@@ -19,7 +19,10 @@ The equation is solved using a second-order finite difference scheme:
 $$
 u_i^{n+1} = 2u_i^n - u_i^{n-1} + \lambda (u_{i+1}^n - 2u_i^n + u_{i-1}^n)
 $$
-where $\lambda = (c \, dt / dx)^2$
+
+
+where 
+$\lambda = (c \, dt / dx)^2$
 
 ## Discussion
 
