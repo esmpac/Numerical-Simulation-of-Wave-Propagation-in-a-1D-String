@@ -50,7 +50,7 @@ $$
 $$
 
 
-represents the square of Courant number (C)
+represents the square of the 'Courant number' (C)
 
 ---
 
