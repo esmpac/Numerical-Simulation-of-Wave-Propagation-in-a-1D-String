@@ -49,7 +49,9 @@ $$
 \lambda = \left(\frac{c \Delta t}{\Delta x}\right)^2
 $$
 
-
+$$
+represents the square of Courant number
+$$
 ---
 
 ## Parameters
