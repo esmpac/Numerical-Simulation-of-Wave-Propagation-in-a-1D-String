@@ -117,3 +117,15 @@ Install dependencies with:
 ```bash
 pip install numpy matplotlib
 ```
+---
+
+## Repository Structure
+
+code/      → main Python pipeline  
+results/   → plots and figures  
+
+
+## Author
+
+Developed and maintained by Erasmo Pacini
+
