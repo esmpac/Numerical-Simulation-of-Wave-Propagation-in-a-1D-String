@@ -83,10 +83,7 @@ The simulation produces plots showing:
 
 ## Discussion
 
-### Methodological Description
-
-- Choice of Discretization Method
-
+### Methodological Description (Choice of Discretization Method)
   
 To translate the continuous d'Alembert equation into a computational model, the Finite Difference Method (FDM) was adopted.
 
