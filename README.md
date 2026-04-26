@@ -48,7 +48,7 @@ $$
 $$
 
 
-represents the square of the 'Courant number' ($\C$)
+represents the square of the 'Courant number' ($C$)
 
 $$
 \lambda = C^2
