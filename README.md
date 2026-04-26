@@ -50,7 +50,6 @@ $$
 $$
 
 
-represents the square of Courant nummber (C)
 ---
 
 ## Parameters
