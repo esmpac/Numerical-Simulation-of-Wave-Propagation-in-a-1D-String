@@ -2,8 +2,6 @@
 
 This project implements a numerical simulation of wave propagation on a 1D string using a finite difference method (FDM).
 
-
-- note: the Finite Difference Method (FDM) is a numerical technique employed to approximate solutions to partial differential equations (PDEs) by discretizing the continuous domain into a structured grid of points.
 ---
 
 ## Physical Model
