@@ -49,9 +49,11 @@ $$
 
 
 represents the square of the 'Courant number' (C)
+
 $$
 C = \frac{c \Delta t}{\Delta x}, \quad \lambda = C^2
 $$
+
 ---
 
 
