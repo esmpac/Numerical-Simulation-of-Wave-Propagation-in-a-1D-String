@@ -96,11 +96,11 @@ While the Finite Element Method (FEM) excels in handling complex geometries and 
 
 
 
+### CFL Condition
+
 The simulation reproduces the expected wave propagation behavior.
 
 The method is simple and efficient, but introduces numerical dispersion and requires stability conditions (CFL condition) to ensure accuracy.
-
-### CFL Condition
 
 The stability condition for the finite difference scheme is:
 
