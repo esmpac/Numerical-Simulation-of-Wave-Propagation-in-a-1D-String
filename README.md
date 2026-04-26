@@ -12,7 +12,7 @@ $$
 \frac{\partial^2 u(x,t)}{\partial t^2} = c^2 \frac{\partial^2 u(x,t)}{\partial x^2}
 $$
 
-where:]
+where:
 
 - $u(x,t)$ is the displacement of the string  
 - $c$ is the wave propagation speed  
