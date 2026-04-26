@@ -2,7 +2,8 @@
 
 This project implements a numerical simulation of wave propagation on a 1D string using a finite difference method (FDM).
 
-note: the Finite Difference Method (FDM) is a numerical technique employed to approximate solutions to partial differential equations (PDEs) by discretizing the continuous domain into a structured grid of points.
+
+- note: the Finite Difference Method (FDM) is a numerical technique employed to approximate solutions to partial differential equations (PDEs) by discretizing the continuous domain into a structured grid of points.
 ---
 
 ## Physical Model
@@ -82,7 +83,9 @@ The simulation produces plots showing:
 
 ## Discussion
 
-## Discussion
+-Methodological Description (English)
+Choice of Discretization Method
+To translate the continuous d'Alembert equation into a computational model, the Finite Difference Method (FDM) was adopted. This numerical technique was selected as the primary discretization strategy due to its efficiency and straightforward application to one-dimensional (1D) domains with regular geometry, such as a vibrating string. While the Finite Element Method (FEM) excels in handling complex geometries and multidimensional domains, FDM allows for the approximation of differential operators via Taylor series expansions with significantly lower computational overhead, while ensuring high accuracy for the problem under consideration.
 
 The simulation reproduces the expected wave propagation behavior.
 
