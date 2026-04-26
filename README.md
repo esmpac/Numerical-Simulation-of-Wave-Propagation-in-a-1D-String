@@ -88,7 +88,9 @@ The simulation produces plots showing:
 - Choice of Discretization Method
 
   
-To translate the continuous d'Alembert equation into a computational model, the Finite Difference Method (FDM) was adopted. This numerical technique was selected as the primary discretization strategy due to its efficiency and straightforward application to one-dimensional (1D) domains with regular geometry, such as a vibrating string. While the Finite Element Method (FEM) excels in handling complex geometries and multidimensional domains, FDM allows for the approximation of differential operators via Taylor series expansions with significantly lower computational overhead, while ensuring high accuracy for the problem under consideration.
+To translate the continuous d'Alembert equation into a computational model, the Finite Difference Method (FDM) was adopted.
+This numerical technique was selected as the primary discretization strategy due to its efficiency and straightforward application to one-dimensional (1D) domains with regular geometry, such as a vibrating string.
+While the Finite Element Method (FEM) excels in handling complex geometries and multidimensional domains, FDM allows for the approximation of differential operators via Taylor series expansions with significantly lower computational overhead, while ensuring high accuracy for the problem under consideration.
 
 
 
