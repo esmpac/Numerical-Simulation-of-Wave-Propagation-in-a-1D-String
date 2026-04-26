@@ -51,7 +51,7 @@ $$
 represents the square of the 'Courant number' (C)
 
 $$
-\quad \lambda = C^2
+\lambda = C^2
 $$
 
 ---
